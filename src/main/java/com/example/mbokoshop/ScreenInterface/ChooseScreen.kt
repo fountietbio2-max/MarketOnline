@@ -27,7 +27,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
+import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.example.mbokoshop.Data.NavigationItem
 
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -175,7 +177,9 @@ fun HomeScreenClient(navController: NavController) {
                 },
                 colors = TopAppBarDefaults.topAppBarColors(containerColor = rougeMboko)
             )
-        }
+        },
+        bottomBar = { MbokoBottomBar(navController, isVendeur = false) } // AJOUT ICI
+
     ) { paddingValues ->
         Column(
             modifier = Modifier
@@ -237,7 +241,9 @@ fun HomeScreenVendeur(navController: NavController) {
             ) {
                 Text("+", fontSize = 24.sp)
             }
-        }
+        },
+
+        bottomBar = { MbokoBottomBar(navController, isVendeur = true) } // AJOUT ICI
     ) { paddingValues ->
         Column(
             modifier = Modifier
@@ -277,6 +283,55 @@ fun HomeScreenVendeur(navController: NavController) {
         }
     }
 }
+/*************************************************************************************************/
+@Composable
+fun MbokoBottomBar(navController: NavController, isVendeur: Boolean) {
+    val vertMboko = Color(0xFF028342)
+    val rougeMboko = Color.Red
+    val activeColor = if (isVendeur) rougeMboko else vertMboko
+
+    val items = listOf(
+        NavigationItem(
+            "Accueil",
+            Icons.Default.AccountCircle,
+            if (isVendeur) "home_vendeur" else "home_client"
+        ),
+        NavigationItem("Catégories", Icons.Default.Search, "categories"), // À créer plus tard
+        NavigationItem("Profil", Icons.Default.AccountCircle, "profil")   // À créer plus tard
+    )
+
+    NavigationBar(
+        containerColor = Color.White,
+        tonalElevation = 8.dp
+    ) {
+        val navBackStackEntry by navController.currentBackStackEntryAsState()
+        val currentRoute = navBackStackEntry?.destination?.route
+
+        items.forEach { item ->
+            NavigationBarItem(
+                icon = { Icon(item.icon, contentDescription = item.title, tint = activeColor) },
+                label = { Text(item.title, fontSize = 12.sp) },
+                selected = currentRoute == item.route,
+                onClick = {
+                    if (currentRoute != item.route) {
+                        navController.navigate(item.route) {
+                            popUpTo(navController.graph.startDestinationId) { saveState = true }
+                            launchSingleTop = true
+                            restoreState = true
+                        }
+                    }
+                },
+                colors = NavigationBarItemDefaults.colors(
+                    selectedIconColor = activeColor,
+                    selectedTextColor = activeColor,
+                    unselectedIconColor = Color.Gray,
+                    unselectedTextColor = Color.Gray,
+                    indicatorColor = activeColor.copy(alpha = 0.1f)
+                )
+            )
+        }
+    }
+}
 
 @Composable
 fun StatCard(title: String, value: String, color: Color, modifier: Modifier) {
@@ -312,7 +367,9 @@ fun VendeurProductItem(index: Int, color: Color) {
 
             Button(
                 onClick = { },
-                modifier = Modifier.fillMaxWidth().padding(top = 8.dp),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(top = 8.dp),
                 colors = ButtonDefaults.buttonColors(containerColor = Color.DarkGray),
                 shape = RoundedCornerShape(8.dp),
                 contentPadding = PaddingValues(0.dp)
@@ -341,7 +398,9 @@ fun ProductItem(index: Int) {
             Text("15 000 FCFA", color = Color(0xFF028342), fontSize = 14.sp)
             Button(
                 onClick = { },
-                modifier = Modifier.fillMaxWidth().padding(top = 8.dp),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(top = 8.dp),
                 colors = ButtonDefaults.buttonColors(containerColor = Color.Red),
                 shape = RoundedCornerShape(8.dp)
             ) {
