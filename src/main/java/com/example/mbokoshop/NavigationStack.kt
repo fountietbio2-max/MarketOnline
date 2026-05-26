@@ -4,6 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.mbokoshop.ScreenInterface.CategoriesScreen
 import com.example.mbokoshop.ScreenInterface.ChooseScreen
 import com.example.mbokoshop.ScreenInterface.DetailScreen
 import com.example.mbokoshop.ScreenInterface.HomeScreenClient
@@ -41,6 +42,10 @@ fun NavigationStack(){
 
         composable("product_detail") {
             DetailScreen(navController)
+        }
+
+        composable("categories") {
+            CategoriesScreen(navController)
         }
     }
 }

@@ -12,6 +12,7 @@ navigationCompose = "2.9.7"
 composeMaterial = "1.6.0"
 material3 = "1.4.0"
 engageCore = "1.5.11"
+roomKtx = "2.8.4"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -32,6 +33,7 @@ androidx-navigation-compose = { group = "androidx.navigation", name = "navigatio
 androidx-compose-material = { group = "androidx.wear.compose", name = "compose-material", version.ref = "composeMaterial" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "material3" }
 engage-core = { group = "com.google.android.engage", name = "engage-core", version.ref = "engageCore" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

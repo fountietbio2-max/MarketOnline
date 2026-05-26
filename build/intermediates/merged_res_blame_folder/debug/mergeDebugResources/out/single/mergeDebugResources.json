@@ -1,106 +1,82 @@
 [
     {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.mbokoshop-debug-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.mbokoshop-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.mbokoshop-debug-43:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.mbokoshop-main-45:/xml/data_extraction_rules.xml"
+        "merged": "com.example.mbokoshop-debug-44:/drawable_apple.png.flat",
+        "source": "com.example.mbokoshop-main-46:/drawable/apple.png"
     },
     {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.mbokoshop-debug-44:/drawable_google.png.flat",
+        "source": "com.example.mbokoshop-main-46:/drawable/google.png"
     },
     {
-        "merged": "com.example.mbokoshop-debug-43:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.mbokoshop-main-45:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.mbokoshop-debug-44:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.mbokoshop-main-46:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.mbokoshop-debug-44:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mbokoshop-main-46:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.mbokoshop-debug-44:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mbokoshop-main-46:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.mbokoshop-debug-44:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mbokoshop-main-46:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.mbokoshop-debug-44:/drawable_logo_app.png.flat",
+        "source": "com.example.mbokoshop-main-46:/drawable/logo_app.png"
     },
     {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.example.mbokoshop-debug-44:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.mbokoshop-main-46:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.mbokoshop-debug-44:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.mbokoshop-main-46:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.mbokoshop-debug-43:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.mbokoshop-main-45:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.example.mbokoshop-debug-44:/drawable_facebook.png.flat",
+        "source": "com.example.mbokoshop-main-46:/drawable/facebook.png"
     },
     {
-        "merged": "com.example.mbokoshop-debug-43:/xml_backup_rules.xml.flat",
-        "source": "com.example.mbokoshop-main-45:/xml/backup_rules.xml"
+        "merged": "com.example.mbokoshop-debug-44:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.mbokoshop-main-46:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.mbokoshop-debug-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.mbokoshop-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\drawable_apple.png.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\drawable\\apple.png"
+        "merged": "com.example.mbokoshop-debug-44:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.mbokoshop-main-46:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\drawable_google.png.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\drawable\\google.png"
+        "merged": "com.example.mbokoshop-debug-44:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.mbokoshop-main-46:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.mbokoshop-debug-44:/xml_backup_rules.xml.flat",
+        "source": "com.example.mbokoshop-main-46:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\drawable_facebook.png.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\drawable\\facebook.png"
+        "merged": "com.example.mbokoshop-debug-44:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mbokoshop-main-46:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.mbokoshop-debug-44:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.mbokoshop-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\xml\\backup_rules.xml"
+        "merged": "com.example.mbokoshop-debug-44:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.mbokoshop-main-46:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.mbokoshop-debug-43:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.mbokoshop-main-45:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.example.mbokoshop-debug-43:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.mbokoshop-main-45:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\drawable_logo_app.png.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\drawable\\logo_app.png"
-    },
-    {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-debug-43:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\noudj\\.gradle\\daemon\\8.13\\com.example.mbokoshop-main-45:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.mbokoshop-debug-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mbokoshop-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
     }
 ]

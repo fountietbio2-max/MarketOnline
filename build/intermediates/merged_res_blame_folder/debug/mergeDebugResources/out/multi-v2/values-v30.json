@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mbokoshop-mergeDebugResources-41:/values-v30/values-v30.xml",
+            "outputFile": "com.example.mbokoshop-mergeDebugResources-42:/values-v30/values-v30.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\noudj\\.gradle\\caches\\8.13\\transforms\\e262f9799a90ad6aacf458c98d895a16\\transformed\\material3\\res\\values-v30\\values-v30.xml",
+                    "source": "C:\\Users\\noudj\\.gradle\\caches\\8.13\\transforms\\bb0ccd326bafb498f887c1ced98952bc\\transformed\\material3\\res\\values-v30\\values-v30.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

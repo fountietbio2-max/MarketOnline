@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mbokoshop-mergeDebugResources-41:/values-lv/values-lv.xml",
+            "outputFile": "com.example.mbokoshop-mergeDebugResources-42:/values-lv/values-lv.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\noudj\\.gradle\\caches\\8.13\\transforms\\8c743285a1e2bde37c91fa40cb814ab2\\transformed\\foundation-release\\res\\values-lv\\values-lv.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,142,232",
-                        "endColumns": "86,89,89",
-                        "endOffsets": "137,227,317"
-                    },
-                    "to": {
-                        "startLines": "2,97,98",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "105,10208,10298",
-                        "endColumns": "86,89,89",
-                        "endOffsets": "187,10293,10383"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\noudj\\.gradle\\caches\\8.13\\transforms\\0352c67115d9250b84a3bb0001e63cb9\\transformed\\ui-release\\res\\values-lv\\values-lv.xml",
+                    "source": "C:\\Users\\noudj\\.gradle\\caches\\8.13\\transforms\\c79084e04abee63feb5147570d3149c0\\transformed\\ui-release\\res\\values-lv\\values-lv.xml",
                     "from": {
                         "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\noudj\\.gradle\\caches\\8.13\\transforms\\e262f9799a90ad6aacf458c98d895a16\\transformed\\material3\\res\\values-lv\\values-lv.xml",
+                    "source": "C:\\Users\\noudj\\.gradle\\caches\\8.13\\transforms\\9366936c5f8aafdeec831b25fc7c7fc8\\transformed\\foundation-release\\res\\values-lv\\values-lv.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,142,232",
+                        "endColumns": "86,89,89",
+                        "endOffsets": "137,227,317"
+                    },
+                    "to": {
+                        "startLines": "2,97,98",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "105,10208,10298",
+                        "endColumns": "86,89,89",
+                        "endOffsets": "187,10293,10383"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\noudj\\.gradle\\caches\\8.13\\transforms\\bb0ccd326bafb498f887c1ced98952bc\\transformed\\material3\\res\\values-lv\\values-lv.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\noudj\\.gradle\\caches\\8.13\\transforms\\7ea8a841b7be7dce2a280451cd032616\\transformed\\core-1.18.0\\res\\values-lv\\values-lv.xml",
+                    "source": "C:\\Users\\noudj\\.gradle\\caches\\8.13\\transforms\\9ca10c8eaa7db31b47e955813c522de5\\transformed\\core-1.18.0\\res\\values-lv\\values-lv.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -72,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\noudj\\.gradle\\caches\\8.13\\transforms\\122b7c277d14c2e994b9f32be3d63305\\transformed\\play-services-basement-18.9.0\\res\\values-lv\\values.xml",
+                    "source": "C:\\Users\\noudj\\.gradle\\caches\\8.13\\transforms\\e57596c7b928b942ad136a4ad33568a7\\transformed\\play-services-basement-18.9.0\\res\\values-lv\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

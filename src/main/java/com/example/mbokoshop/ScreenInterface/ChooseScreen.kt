@@ -54,7 +54,7 @@ fun ChooseScreen(navController: NavController) {
                 text = "Bienvenue sur MbokoShop",
                 fontSize = 26.sp,
                 fontWeight = FontWeight.ExtraBold,
-                color = Color(0xFFFF9800),
+                color = vertMboko,
                 textAlign = TextAlign.Center
             )
 
@@ -209,7 +209,7 @@ fun HomeScreenClient(navController: NavController) {
                 horizontalArrangement = Arrangement.spacedBy(12.dp),
                 verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
-                items(6) { index -> ProductItem(index) }
+                items(6) { index -> ProductItem(index = index, navController = navController) }
             }
         }
     }
@@ -380,9 +380,14 @@ fun VendeurProductItem(index: Int, color: Color) {
     }
 }
 @Composable
-fun ProductItem(index: Int) {
+fun ProductItem(index: Int,  navController: NavController) {
     Card(
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier
+            .fillMaxWidth()
+            .clickable {
+                // Cette ligne fait l'interaction vers DetailScreen
+                navController.navigate("product_detail")
+            },
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
         colors = CardDefaults.cardColors(containerColor = Color.White)
     ) {
@@ -414,5 +419,5 @@ fun ProductItem(index: Int) {
 @Composable
 fun ChooseScreenPreview(){
     val navController = rememberNavController()
-    HomeScreenClient(navController = navController)
+    ChooseScreen(navController = navController)
 }
